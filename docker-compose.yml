@@ -1,8 +1,8 @@
 ---
 include:
-    -path: ./weboffice/collabora.yml
-    -path: ./external-proxy/collabora.yml
-    -path: ./external-proxy/opencloud.yml
+    - path: ./weboffice/collabora.yml
+    - path: ./external-proxy/collabora.yml
+    - path: ./external-proxy/opencloud.yml
 
 services:
   opencloud:
