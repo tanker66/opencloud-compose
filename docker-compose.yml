@@ -1,4 +1,9 @@
 ---
+include:
+    -path: ./weboffice/collabora.yml
+    -path: ./external-proxy/collabora.yml
+    -path: ./external-proxy/opencloud.yml
+
 services:
   opencloud:
     # renovate: depName=opencloudeu/opencloud-rolling
